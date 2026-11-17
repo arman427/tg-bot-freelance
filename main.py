@@ -40,9 +40,17 @@ async def command_start_handler(message: Message, state: FSMContext) -> None:
 @dp.callback_query(F.data.startswith("service:"))
 async def show_service_handler(callback: CallbackQuery) -> None:
     key = callback.data.split(":")[1]  # type: ignore
+    service = SERVICES[key]
+
+    text = (
+        f"{service['description']}\n\n"
+        f"💰 <b>Стоимость:</b> {service['price']}\n"
+        f"⏱ <b>Срок:</b> {service['duration']}\n\n"
+        f"<i>Точную смету назову после короткого брифа.</i>"
+    )
 
     await callback.message.edit_text(  # type: ignore
-        SERVICES[key]["description"],
+        text,
         reply_markup=get_service_actions_kb(key),
     )
     await callback.answer()
