@@ -53,3 +53,27 @@ SERVICES = {
         ),
     },
 }
+
+
+PORTFOLIO = {
+    "landing": [
+        {
+            "type": "photo",
+            "value": "https://dentist-landing-liart.vercel.app/cases/desktop.png",
+            "caption": (
+                "<b>Стоматология «Бриз»</b> — пет-проект\n\n"
+                "Лендинг с 14 услугами, онлайн-записью, отзывами и адаптивом "
+                "под все экраны, с анимациями при скролле."
+            ),
+        },
+        {
+            "type": "photo",
+            "value": "https://dentist-landing-liart.vercel.app/cases/mobile.png",
+            "caption": "Мобильная версия",
+        },
+    ],
+    "card": [],
+    "shop": [],
+    "bot": [],
+    "other": [],
+}
