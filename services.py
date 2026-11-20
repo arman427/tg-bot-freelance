@@ -82,7 +82,8 @@ PORTFOLIO = {
             "caption": "Мобильная версия",
         },
     ],
-    "card": [
+    "card": [],
+    "shop": [
         {
             "type": "photo",
             "value": "https://cloth-shop-lac.vercel.app/desktop.png",
@@ -99,7 +100,6 @@ PORTFOLIO = {
             "caption": "Мобильная версия",
         },
     ],
-    "shop": [],
     "bot": [],
     "other": [],
 }
