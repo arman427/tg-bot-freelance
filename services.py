@@ -82,7 +82,23 @@ PORTFOLIO = {
             "caption": "Мобильная версия",
         },
     ],
-    "card": [],
+    "card": [
+        {
+            "type": "photo",
+            "value": "https://cloth-shop-lac.vercel.app/desktop.png",
+            "caption": (
+                "<b>Интернет-магазин одежды VELLUM</b> — пет-проект\n\n"
+                "Современный онлайн-магазин с быстрой навигацией, карточками "
+                "товаров, выбором размеров, корзиной и адаптивным дизайном "
+                "под любые экраны."
+            ),
+        },
+        {
+            "type": "photo",
+            "value": "https://cloth-shop-lac.vercel.app/mobile.png",
+            "caption": "Мобильная версия",
+        },
+    ],
     "shop": [],
     "bot": [],
     "other": [],
